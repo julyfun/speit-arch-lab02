@@ -127,6 +127,9 @@ void vector_set(vector_t* v, size_t loc, int value) {
     for (; i < v->size; i++) {
         space[i] = v->data[i];
     }
+    for (; i < loc + 1; i++) {
+        space[i] = 0;
+    }
     free(v->data);
     v->size = loc + 1;
     v->data = space;
