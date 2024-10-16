@@ -1,0 +1,15 @@
+.vscode
+.DS_Store
+.nvimlog
+*.swp
+.zed
+__pycache__
+*.pdf
+1
+*.jar
+a.out
+bit_ops
+lfsr
+*.o
+vector-test
+*.out
